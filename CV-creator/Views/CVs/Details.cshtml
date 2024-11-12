@@ -1,0 +1,52 @@
+﻿@model CV_creator.Models.BasicInformation
+
+@{
+    ViewData["Title"] = "CV Details";
+}
+
+<h1>CV Details</h1>
+
+<div>
+    <h4>Basic Information</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">First Name</dt>
+        <dd class="col-sm-10">@Model.FirstName</dd>
+
+        <dt class="col-sm-2">Last Name</dt>
+        <dd class="col-sm-10">@Model.LastName</dd>
+
+        <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Model.Email</dd>
+
+        <dt class="col-sm-2">Phone Number</dt>
+        <dd class="col-sm-10">@Model.PhoneNumber</dd>
+
+        <dt class="col-sm-2">Birth Date</dt>
+        <dd class="col-sm-10">@Model.BirthDate.ToShortDateString()</dd>
+    </dl>
+</div>
+
+<div>
+    <h4>Education</h4>
+    <ul>
+        @foreach (var edu in Model.Educations)
+        {
+            <li>@edu.InstitutionName - @edu.FieldOfStudy (@edu.Status)</li>
+        }
+    </ul>
+</div>
+
+<div>
+    <h4>Work Experience</h4>
+    <ul>
+        @foreach (var job in Model.Jobs)
+        {
+            <li>@job.Title - @job.PositionHeld (@job.EmploymentType)</li>
+        }
+    </ul>
+</div>
+
+<p>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</p>

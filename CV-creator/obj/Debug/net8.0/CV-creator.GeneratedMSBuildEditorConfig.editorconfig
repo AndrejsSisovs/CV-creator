@@ -26,6 +26,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Андрей\Desktop\CV-creator\CV-creator
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Андрей/Desktop/CV-creator/CV-creator/Views/CVs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1ZzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Андрей/Desktop/CV-creator/CV-creator/Views/CVs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1ZzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Андрей/Desktop/CV-creator/CV-creator/Views/CVs/Preview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1ZzXFByZXZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Андрей/Desktop/CV-creator/CV-creator/Views/Educations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Андрей/Desktop/CV-creator/CV-creator/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

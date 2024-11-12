@@ -27,7 +27,11 @@ namespace CV_creator.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            List<string> nwstr = new List<string>
+            {
+                "huj", "pizda"
+            };
+            return View(nwstr);
         }
 
         [HttpGet]
@@ -51,11 +55,11 @@ namespace CV_creator.Controllers
             //return RedirectToAction("Index")
         }
 
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
 
-        //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        //public IActionResult Error()
-        //{
-        //    return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        //}
     }
 }
