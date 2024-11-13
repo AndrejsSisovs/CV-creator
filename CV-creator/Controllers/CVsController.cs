@@ -84,15 +84,17 @@ namespace CV_creator.Controllers
             return View(cv);
         }
 
-        // POST: CVs/Edit/5
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,Email,PhoneNumber,BirthDate")] BasicInformation basicInformation)
+        public async Task<IActionResult> Edit(int id, BasicInformation basicInformation)
         {
             if (id != basicInformation.Id)
             {
                 return NotFound();
             }
+
+            ModelState.Remove("ResidenceAddress");
 
             if (ModelState.IsValid)
             {
@@ -100,6 +102,7 @@ namespace CV_creator.Controllers
                 {
                     _context.Update(basicInformation);
                     await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -112,12 +115,10 @@ namespace CV_creator.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
             }
             return View(basicInformation);
         }
 
-        // GET: CVs/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -135,7 +136,6 @@ namespace CV_creator.Controllers
             return View(cv);
         }
 
-        // POST: CVs/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -151,26 +151,66 @@ namespace CV_creator.Controllers
             return _context.BasicInformations.Any(e => e.Id == id);
         }
 
-        // GET: CVs/Preview/5
-        public async Task<IActionResult> Preview(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
+        //public async Task<IActionResult> Preview(int? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            var cv = await _context.BasicInformations
-                                    .Include(b => b.Educations)
-                                    .Include(b => b.Jobs)
-                                        .ThenInclude(j => j.Skills)
-                                    .Include(b => b.ResidenceAddress)
-                                    .FirstOrDefaultAsync(m => m.Id == id);
+        //    var cv = await _context.BasicInformations
+        //                            .Include(b => b.Educations)
+        //                            .Include(b => b.Jobs)
+        //                                .ThenInclude(j => j.Skills)
+        //                            .Include(b => b.ResidenceAddress)
+        //                            .FirstOrDefaultAsync(m => m.Id == id);
+        //    if (cv == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    return View(cv);
+        //}
+
+        public IActionResult AddEducation(int cvId)
+        {
+            var cv = _context.BasicInformations
+                              .Include(b => b.Educations)
+                              .FirstOrDefault(b => b.Id == cvId);
+
             if (cv == null)
             {
                 return NotFound();
             }
 
-            return View(cv);
+            var education = new Education { BasicInformationId = cvId };
+            return View(education);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AddEducation(int cvId, Education education)
+        {
+            ModelState.Remove("InstitutionAddress");
+
+            var basicInfo = await _context.BasicInformations.FindAsync(cvId);
+
+            if (basicInfo == null)
+            {
+                return NotFound();
+            }
+
+            education.BasicInformationId = cvId;
+
+
+            if (ModelState.IsValid)
+            {
+                education.BasicInformationId = cvId;
+                _context.Educations.Add(education);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Details), new { id = cvId}); 
+            }
+            return View(education);
         }
     }
 }
