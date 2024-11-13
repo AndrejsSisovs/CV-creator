@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Андрей\Desktop\CV-creator\CV-creator
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Андрей/Desktop/CV-creator/CV-creator/Views/CVs/Adress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1ZzXEFkcmVzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Андрей/Desktop/CV-creator/CV-creator/Views/CVs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1ZzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Андрей/Desktop/CV-creator/CV-creator/Views/CVs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1ZzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,20 +46,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1ZzXFByZXZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Андрей/Desktop/CV-creator/CV-creator/Views/Educations/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWR1Y2F0aW9uc1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Андрей/Desktop/CV-creator/CV-creator/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Андрей/Desktop/CV-creator/CV-creator/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Андрей/Desktop/CV-creator/CV-creator/Views/Home/Test.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Андрей/Desktop/CV-creator/CV-creator/Views/Shared/Error.cshtml]

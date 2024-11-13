@@ -15,7 +15,6 @@ namespace CV_creator.Controllers
             _context = context;
         }
 
-        // GET: CVs
         public async Task<IActionResult> Index()
         {
             var cvs = await _context.BasicInformations
@@ -25,7 +24,6 @@ namespace CV_creator.Controllers
             return View(cvs);
         }
 
-        // GET: CVs/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -47,17 +45,20 @@ namespace CV_creator.Controllers
             return View(cv);
         }
 
-        // GET: CVs/Create
+        
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: CVs/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("FirstName,LastName,Email,PhoneNumber,BirthDate")] BasicInformation basicInformation)
         {
+
+            ModelState.Remove("ResidenceAddress");
+            
+
             if (ModelState.IsValid)
             {
                 _context.Add(basicInformation);
@@ -67,7 +68,7 @@ namespace CV_creator.Controllers
             return View(basicInformation);
         }
 
-        // GET: CVs/Edit/5
+
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)

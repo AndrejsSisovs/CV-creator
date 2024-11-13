@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\controllers\\cvscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:controllers\\cvscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\models\\basicinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:models\\basicinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\views\\cvs\\adress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:views\\cvs\\adress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\views\\cvs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:views\\cvs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\views\\cvs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:views\\cvs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Migrations\\20241113082924_UpdatePhoneNumberType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241113082924_UpdatePhoneNumberType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,51 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Adress.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\CVs\\Adress.cshtml",
+              "RelativeDocumentMoniker": "Views\\CVs\\Adress.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\CVs\\Adress.cshtml",
+              "RelativeToolTip": "Views\\CVs\\Adress.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T13:50:14.876Z",
+              "WhenOpened": "2024-11-13T08:21:49.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\CVs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\CVs\\Create.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\CVs\\Create.cshtml",
+              "RelativeToolTip": "Views\\CVs\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T13:48:33.358Z",
+              "WhenOpened": "2024-11-13T07:59:05.829Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BasicInformation.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Models\\BasicInformation.cs",
+              "RelativeDocumentMoniker": "Models\\BasicInformation.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Models\\BasicInformation.cs",
+              "RelativeToolTip": "Models\\BasicInformation.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T08:27:48.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\CVs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CVs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\CVs\\Index.cshtml",
+              "RelativeToolTip": "Views\\CVs\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T07:40:05.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CVsController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Controllers\\CVsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CVsController.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Controllers\\CVsController.cs",
+              "RelativeToolTip": "Controllers\\CVsController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwEQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T07:21:56.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241113082924_UpdatePhoneNumberType.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Migrations\\20241113082924_UpdatePhoneNumberType.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241113082924_UpdatePhoneNumberType.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Migrations\\20241113082924_UpdatePhoneNumberType.cs",
+              "RelativeToolTip": "Migrations\\20241113082924_UpdatePhoneNumberType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T08:29:24.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwB4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T07:27:42.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T13:49:24.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T13:48:33.358Z",
               "EditorCaption": ""
             }
           ]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CV-creator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d55805508b40fc4a5c00303de96c1188688ee8ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d79c5e79553ab564b42b9036c08a6f4b5e8de2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CV-creator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CV-creator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
