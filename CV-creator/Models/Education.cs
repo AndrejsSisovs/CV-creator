@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Net;
 
 namespace CV_creator.Models
@@ -24,7 +25,7 @@ namespace CV_creator.Models
         public DateTime? StartTime { get; set; }
         public DateTime? EndTime { get; set; }
 
-        
+
         public int BasicInformationId { get; set; }
         public BasicInformation BasicInformation { get; set; }
         public Address InstitutionAddress { get; set; }

@@ -20,44 +20,39 @@ namespace CV_creator.Database
         {
             base.OnModelCreating(modelBuilder);
 
-            // Define relationships if needed, especially for complex mappings
-
-            // Example: One BasicInformation has many Educations
             modelBuilder.Entity<BasicInformation>()
-                .HasMany(b => b.Educations)         // BasicInformation has many Educations
-                .WithOne(e => e.BasicInformation)   // Each Education is associated with one BasicInformation
-                .HasForeignKey(e => e.BasicInformationId)  // Foreign Key to BasicInformation
-                .OnDelete(DeleteBehavior.Cascade);  // Cascade delete (when BasicInformation is deleted, so are its Educations)
+                .HasMany(b => b.Educations)
+                .WithOne(e => e.BasicInformation)
+                .HasForeignKey(e => e.BasicInformationId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<BasicInformation>()
-                .HasMany(b => b.Jobs)              // BasicInformation has many Jobs
-                .WithOne(j => j.BasicInformation)  // Each Job is associated with one BasicInformation
-                .HasForeignKey(j => j.BasicInformationId)  // Foreign Key to BasicInformation
-                .OnDelete(DeleteBehavior.Cascade); // Cascade delete (when BasicInformation is deleted, so are its Jobs)
+                .HasMany(b => b.Jobs)
+                .WithOne(j => j.BasicInformation)
+                .HasForeignKey(j => j.BasicInformationId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<WorkExperience>()
-                .HasMany(j => j.Skills)  // Job has many SkillsAchievements
-                .WithOne(sa => sa.Job)               // Each SkillsAchievement is associated with one Job
-                .HasForeignKey(sa => sa.JobId)       // Foreign Key to Job
-                .OnDelete(DeleteBehavior.Cascade);   // Cascade delete (when Job is deleted, so are its SkillsAchievements)
-
-            // Configure Address relationships
-            modelBuilder.Entity<Address>()
-                .HasOne(a => a.BasicInformation)     // Address has one BasicInformation
-                .WithOne(b => b.ResidenceAddress)   // Each BasicInformation has one ResidenceAddress
-                .HasForeignKey<Address>(a => a.BasicInformationId);  // Foreign Key to BasicInformation
+                .HasMany(j => j.Skills)
+                .WithOne(sa => sa.Job)
+                .HasForeignKey(sa => sa.JobId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Address>()
-                .HasOne(a => a.Education)           // Address has one Education
-                .WithOne(e => e.InstitutionAddress) // Each Education has one InstitutionAddress
-                .HasForeignKey<Address>(a => a.EducationId);  // Foreign Key to Education
+                .HasOne(a => a.BasicInformation)
+                .WithOne(b => b.ResidenceAddress)
+                .HasForeignKey<Address>(a => a.BasicInformationId);
 
             modelBuilder.Entity<Address>()
-                .HasOne(a => a.Job)                // Address has one Job
-                .WithOne(j => j.WorkAddress)       // Each Job has one WorkAddress
-                .HasForeignKey<Address>(a => a.JobId);  // Foreign Key to Job
+                .HasOne(a => a.Education)
+                .WithOne(e => e.InstitutionAddress)
+                .HasForeignKey<Address>(a => a.EducationId);
 
-            // Add configurations for additional models if any
+            modelBuilder.Entity<Address>()
+                .HasOne(a => a.Job)
+                .WithOne(j => j.WorkAddress)
+                .HasForeignKey<Address>(a => a.JobId);
+
         }
     }
 }

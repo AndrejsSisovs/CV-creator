@@ -3,31 +3,30 @@ using CV_creator.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
 using System.Threading.Tasks;
 
 namespace CV_creator.Controllers
 {
-    public class EducationsController : Controller
+    public class EducationController : Controller
     {
         private readonly CvDbContext _context;
 
-        public EducationsController(CvDbContext context)
+        public EducationController(CvDbContext context)
         {
             _context = context;
         }
-        public IActionResult AddEducation(int id)
+        public IActionResult AddEducation(int cvId)
         {
             var cv = _context.BasicInformations
                               .Include(b => b.Educations)
-                              .FirstOrDefault(b => b.Id == id);
+                              .FirstOrDefault(b => b.Id == cvId);
 
             if (cv == null)
             {
                 return NotFound();
             }
 
-            var education = new Education { BasicInformationId = id };  // Pre-fill with CV ID
+            var education = new Education { BasicInformationId = cvId };
             return View(education);
         }
 
@@ -35,110 +34,102 @@ namespace CV_creator.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddEducation(Education education)
         {
+            ModelState.Remove("InstitutionAddress");
+            
+            var basicInfo = await _context.BasicInformations
+                               .FirstOrDefaultAsync(b => b.Id == education.BasicInformationId);
+
+            if (basicInfo == null)
+            {
+                return NotFound();
+            }
+
+            ModelState.Remove("BasicInformation");
             if (ModelState.IsValid)
             {
                 _context.Educations.Add(education);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Details));  // Or redirect to CV details
+                return RedirectToAction("Details", "CVs", new { id = education.BasicInformationId });
+            }
+
+            
+            return View(education);
+        }
+
+        public IActionResult Edit(int id)
+        {
+            // Retrieve the Education record by its Id
+            var education = _context.Educations
+                                    .FirstOrDefault(e => e.Id == id);
+
+            if (education == null)
+            {
+                return NotFound(); // Return 404 if the education doesn't exist
+            }
+
+            return View(education); // Return the view with the education data
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, Education education)
+        {
+            if (id != education.Id)
+            {
+                return NotFound(); // Ensure that the Ids match
+            }
+            ModelState.Remove("InstitutionAddress");
+            ModelState.Remove("BasicInformation");
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(education);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!_context.Educations.Any(e => e.Id == education.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction("Details", "CVs", new { id = education.BasicInformationId });
             }
             return View(education);
         }
-        //public IActionResult AddEducation(int id)
-        //{
-        //    var basicInformations = _context.BasicInformations.ToList();
-        //    ViewBag.BasicInformationId = new SelectList(basicInformations, "Id", "FirstName");
 
-        //    var education = new Education { BasicInformationId = id };
-        //    return View(education);
-        //}
+        public IActionResult Delete(int id)
+        {
+            var education = _context.Educations
+                                    .FirstOrDefault(e => e.Id == id);
+            if (education == null)
+            {
+                return NotFound();
+            }
 
-        //// POST: Educations/Create
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> AddEducation(Education education)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        _context.Educations.Add(education);
-        //        await _context.SaveChangesAsync();
-        //        return RedirectToAction(nameof(Details));
-        //    }
+            return View(education);
+        }
 
-        //    var basicInformations = _context.BasicInformations.ToList();
-        //    ViewBag.BasicInformationId = new SelectList(basicInformations, "Id", "FirstName");
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var education = await _context.Educations.FindAsync(id);
+            if (education == null)
+            {
+                return NotFound();
+            }
 
-        //    return View(education);
-        //}
+            _context.Educations.Remove(education);
+            await _context.SaveChangesAsync();
 
-        //public async Task<IActionResult> Edit(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return NotFound();
-        //    }
+            return RedirectToAction("Details", "CVs", new { id = education.BasicInformationId }); 
+        }
 
-        //    var cv = await _context.BasicInformations.FindAsync(id);
-        //    if (cv == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return View(cv);
-        //}
-
-        //// POST: CVs/Edit/5
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> Edit(int id, BasicInformation basicInformation)
-        //{
-        //    if (id != basicInformation.Id)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    if (ModelState.IsValid)
-        //    {
-        //        try
-        //        {
-        //            _context.Update(basicInformation);
-        //            await _context.SaveChangesAsync();
-        //        }
-        //        catch (DbUpdateConcurrencyException)
-        //        {
-        //            if (!CVExists(basicInformation.Id))
-        //            {
-        //                return NotFound();
-        //            }
-        //            else
-        //            {
-        //                throw;
-        //            }
-        //        }
-        //        return RedirectToAction(nameof(Details));
-        //    }
-        //    return View(basicInformation);
-        //}
-
-        //private bool CVExists(int id)
-        //{
-        //    return _context.BasicInformations.Any(e => e.Id == id);
-        //}
-
-        //// GET: CVs/Delete/5
-        //public async Task<IActionResult> Delete(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var cv = await _context.BasicInformations
-        //                            .FirstOrDefaultAsync(m => m.Id == id);
-        //    if (cv == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return View(cv);
-        //}
     }
 }

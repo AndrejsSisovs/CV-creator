@@ -10,10 +10,8 @@ namespace CV_creator.Models
         [MaxLength(20), Required(AllowEmptyStrings = false)]
         public string Type { get; set; }
 
-        // Foreign Key
+        
         public int JobId { get; set; }
-
-        // Navigation Property
         public WorkExperience Job { get; set; }
     }
 }

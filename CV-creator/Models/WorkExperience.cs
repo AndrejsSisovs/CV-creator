@@ -17,13 +17,10 @@ namespace CV_creator.Models
         public DateTime StartTime { get; set; }
         public DateTime? EndTime { get; set; }
 
-        // Foreign Key
+        
         public int BasicInformationId { get; set; }
-
-        // Navigation Properties
         public BasicInformation BasicInformation { get; set; }
         public ICollection<Skills> Skills { get; set; }
-
         public Address WorkAddress { get; set; }
     }
 }
