@@ -14,7 +14,7 @@ namespace CV_creator.Models
         public string EmploymentType { get; set; }
 
         
-        public DateTime StartTime { get; set; }
+        public DateTime? StartTime { get; set; }
         public DateTime? EndTime { get; set; }
 
         

@@ -30,17 +30,14 @@
 <div>
     <h4>Education</h4>
 
-    <!-- Add Education Button -->
     <a asp-controller="Education" asp-action="AddEducation" asp-route-cvId="@Model.Id" class="btn btn-primary mb-3">Add Education</a>
 
-    <!-- Education List -->
     <ul>
         @foreach (var edu in Model.Educations)
         {
             <li>
                 @edu.InstitutionName - @edu.FieldOfStudy (@edu.Status)
 
-                <!-- Edit and Delete Buttons for each Education -->
                 <a asp-action="Edit" asp-controller="Education" asp-route-id="@edu.Id" class="btn btn-warning btn-sm ml-2">Edit</a>
                 <a asp-action="Delete" asp-controller="Education" asp-route-id="@edu.Id" class="btn btn-danger btn-sm ml-2">Delete</a>
             </li>
@@ -48,12 +45,25 @@
     </ul>
 </div>
 
+
 <div>
     <h4>Work Experience</h4>
+
+    <a asp-controller="WorkExperience" asp-action="AddWorkExperience" asp-route-cvId="@Model.Id" class="btn btn-primary mb-3">Add Work Experience</a>
+
     <ul>
         @foreach (var job in Model.Jobs)
         {
-            <li>@job.Title - @job.PositionHeld (@job.EmploymentType)</li>
+            <li>
+                @job.Title - @job.PositionHeld (@job.EmploymentType)
+                
+                <!-- Button to view details of each work experience -->
+                <a asp-action="Details" asp-controller="WorkExperience" asp-route-id="@job.Id" class="btn btn-info btn-sm ml-2">View Details</a>
+
+                <!-- Existing Edit and Delete buttons -->
+                <a asp-action="Edit" asp-controller="WorkExperience" asp-route-id="@job.Id" class="btn btn-warning btn-sm ml-2">Edit</a>
+                <a asp-action="Delete" asp-controller="WorkExperience" asp-route-id="@job.Id" class="btn btn-danger btn-sm ml-2">Delete</a>
+            </li>
         }
     </ul>
 </div>

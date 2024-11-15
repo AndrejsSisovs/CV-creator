@@ -58,16 +58,15 @@ namespace CV_creator.Controllers
 
         public IActionResult Edit(int id)
         {
-            // Retrieve the Education record by its Id
             var education = _context.Educations
                                     .FirstOrDefault(e => e.Id == id);
 
             if (education == null)
             {
-                return NotFound(); // Return 404 if the education doesn't exist
+                return NotFound();
             }
 
-            return View(education); // Return the view with the education data
+            return View(education);
         }
 
         [HttpPost]
@@ -76,7 +75,7 @@ namespace CV_creator.Controllers
         {
             if (id != education.Id)
             {
-                return NotFound(); // Ensure that the Ids match
+                return NotFound();
             }
             ModelState.Remove("InstitutionAddress");
             ModelState.Remove("BasicInformation");

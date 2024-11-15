@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\controllers\\educationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:controllers\\educationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\controllers\\workexperiencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:controllers\\workexperiencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\views\\education\\addeducation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:views\\education\\addeducation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\views\\workexperience\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:views\\workexperience\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\controllers\\cvscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:controllers\\cvscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\models\\workexperiencewithskills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:models\\workexperiencewithskills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\views\\cvs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:views\\cvs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\views\\workexperience\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:views\\workexperience\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\views\\cvs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:views\\cvs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\models\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:models\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\controllers\\educationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:controllers\\educationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\cv-creator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:cv-creator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\views\\workexperience\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:views\\workexperience\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\desktop\\cv-creator\\cv-creator\\views\\education\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6A5C5D0-572F-426D-84EA-D1048FCCB6FB}|CV-creator.csproj|solutionrelative:views\\education\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,45 +42,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CV-creator",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\CV-creator.csproj",
-              "RelativeDocumentMoniker": "CV-creator.csproj",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\CV-creator.csproj",
-              "RelativeToolTip": "CV-creator.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-14T11:59:05.33Z",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\WorkExperience\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\WorkExperience\\Details.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\WorkExperience\\Details.cshtml",
+              "RelativeToolTip": "Views\\WorkExperience\\Details.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T08:35:21.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorkExperienceWithSkills.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Models\\WorkExperienceWithSkills.cs",
+              "RelativeDocumentMoniker": "Models\\WorkExperienceWithSkills.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Models\\WorkExperienceWithSkills.cs",
+              "RelativeToolTip": "Models\\WorkExperienceWithSkills.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:18:08.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EducationController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Controllers\\EducationController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EducationController.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Controllers\\EducationController.cs",
-              "RelativeToolTip": "Controllers\\EducationController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAArwHgAAAAIAAAAAAAAAA==",
+              "Title": "WorkExperienceController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Controllers\\WorkExperienceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WorkExperienceController.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Controllers\\WorkExperienceController.cs",
+              "RelativeToolTip": "Controllers\\WorkExperienceController.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAowMIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:39:10Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Education.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Models\\Education.cs",
-              "RelativeDocumentMoniker": "Models\\Education.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Models\\Education.cs",
-              "RelativeToolTip": "Models\\Education.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAswBkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:49:45.943Z",
+              "WhenOpened": "2024-11-15T07:21:41.677Z",
               "EditorCaption": ""
             },
             {
@@ -87,49 +91,61 @@
               "RelativeDocumentMoniker": "Views\\CVs\\Details.cshtml",
               "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\CVs\\Details.cshtml",
               "RelativeToolTip": "Views\\CVs\\Details.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADAAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-13T14:33:48.66Z",
+              "WhenOpened": "2024-11-15T07:19:21.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CVsController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Controllers\\CVsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CVsController.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Controllers\\CVsController.cs",
-              "RelativeToolTip": "Controllers\\CVsController.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAuwIkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "EducationController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Controllers\\EducationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EducationController.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Controllers\\EducationController.cs",
+              "RelativeToolTip": "Controllers\\EducationController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAcwHoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:31:16.795Z",
+              "WhenOpened": "2024-11-15T07:18:35.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddEducation.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\Education\\AddEducation.cshtml",
-              "RelativeDocumentMoniker": "Views\\Education\\AddEducation.cshtml",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\Education\\AddEducation.cshtml",
-              "RelativeToolTip": "Views\\Education\\AddEducation.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwA0AAABeAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\WorkExperience\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\WorkExperience\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\WorkExperience\\Delete.cshtml",
+              "RelativeToolTip": "Views\\WorkExperience\\Delete.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-13T14:59:59.714Z",
+              "WhenOpened": "2024-11-14T16:05:32.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\CVs\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\CVs\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\CVs\\Delete.cshtml",
-              "RelativeToolTip": "Views\\CVs\\Delete.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAABHAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\WorkExperience\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\WorkExperience\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\WorkExperience\\Edit.cshtml",
+              "RelativeToolTip": "Views\\WorkExperience\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-13T12:47:37.632Z",
+              "WhenOpened": "2024-11-14T16:05:26.039Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\Education\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Education\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\Desktop\\CV-creator\\CV-creator\\Views\\Education\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Education\\Edit.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T16:03:20.297Z"
             }
           ]
         }
